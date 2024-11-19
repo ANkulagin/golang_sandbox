@@ -68,10 +68,10 @@ func main() {
 
 /*
 9.09TB
-KB: 1.00KB, Type: main.ByteSize
-MB: 1.00MB, Type: main.ByteSize
-GB: 1.00GB, Type: main.ByteSize
-TB: 1.00TB, Type: main.ByteSize
+KB: 1.00KB, Type: 2_example.ByteSize
+MB: 1.00MB, Type: 2_example.ByteSize
+GB: 1.00GB, Type: 2_example.ByteSize
+TB: 1.00TB, Type: 2_example.ByteSize
 TB: 1, Type: int
 
 Переменные окружения:
