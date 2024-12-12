@@ -32,12 +32,12 @@ func main() {
 	}
 
 	log.Println("Используемый клиент:", client)
-	// Внешняя переменная client имеет корректное значение
-	fmt.Println("Внешний client:", client)
+	// Внешняя переменная 7_client имеет корректное значение
+	fmt.Println("Внешний 7_client:", client)
 }
 
 /*
 2024/12/10 18:07:16 Используемый клиент: &{<nil> <nil> <nil> 0s}
-Внешний client: &{<nil> <nil> <nil> 0s}
+Внешний 7_client: &{<nil> <nil> <nil> 0s}
 
 */

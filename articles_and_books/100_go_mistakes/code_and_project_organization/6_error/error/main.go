@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	store := &store.MySQLStore{}
-	foo := client.NewFoo(store)
+	s := &store.MySQLStore{}
+	foo := client.NewFoo(s)
 	foo.Bar()
 }
 
