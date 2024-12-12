@@ -15,19 +15,19 @@ type Contract struct {
 // Структура Store
 type Store struct{}
 
-// Метод GetCustomer возвращает конкретный тип Customer
+// GetCustomer Метод GetCustomer возвращает конкретный тип Customer
 func (s *Store) GetCustomer(id string) (Customer, error) {
 	// Логика получения клиента
 	return Customer{}, nil
 }
 
-// Метод SetCustomer принимает конкретный тип Customer
+// SetCustomer Метод SetCustomer принимает конкретный тип Customer
 func (s *Store) SetCustomer(id string, customer Customer) error {
 	// Логика установки клиента
 	return nil
 }
 
-// Метод GetContract возвращает конкретный тип Contract
+// GetContract Метод GetContract возвращает конкретный тип Contract
 func (s *Store) GetContract(id string) (Contract, error) {
 	// Логика получения контракта
 	return Contract{}, nil
